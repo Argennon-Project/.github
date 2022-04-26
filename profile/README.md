@@ -21,7 +21,7 @@ PV-DB server in Argennon, is a conventional data server which uses its computati
 storage resources to help the Argennon network process transactions. A large portion of incentive rewards in
 the Argennon platform is devoted to PV-DB servers. This incentivizes the development of conventional
 networking, storage and computational hardware, which can benefit all areas of information technology. This
-contrasts with the approach of other blockchains that incentivize development of a totally useless technology
+contrasts with the approach of other blockchains that incentivizes the development of a totally useless technology
 of hash calculation.
 
 An initial draft of the Argennon white paper can be
