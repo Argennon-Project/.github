@@ -3,7 +3,7 @@
 ## The Argennon Project
 
 Argennon (*the classical pronunciation should be used:* /ɑrˈɡen.non/) is a next-gen cloud based blockchain and smart
-contract platform which aims to solve the shortcomings of existing platforms. The Argennon blockchain uses
+contract platform. The Argennon blockchain uses
 a hybrid proof of stake (HPoS) consensus protocol, which is capable of combining the benefits of
 a centralized and a decentralized system. Thanks to the cloud
 based design of the Argennon blockchain, transaction validation does not require costly
