@@ -22,7 +22,7 @@ useless technology of hash calculation.
 
 By using cryptographic accumulators, the integrity of data on the Argennon cloud is guaranteed, and there
 is no need for trusting cloud servers. At the same time, by using a smart clustering algorithm the network usage
-and the overhead of the cryptographic commitment scheme is kept manageable.
+and the overhead of the cryptographic proofs is kept manageable.
 
 An initial draft of the Argennon white paper can be
 found [here](https://raw.githubusercontent.com/aybehrouz/AVM/main/pdf/A.pdf). In addition,
