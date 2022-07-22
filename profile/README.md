@@ -35,7 +35,28 @@ determine the project's path. After the launch of the Argennon blockchain, this 
 to the native currency of the Argennon blockchain.
 
 **Please check out the Argennon community on [Discord](https://discord.gg/7u3cXNt5yN), [Telegram](https://t.me/Argennon_Chat), [Reddit](https://www.reddit.com/r/Argennon/) and [Twitter](https://twitter.com/Argennon_org)!**
+### Development Roadmap
 
+- [x] **The Argennon execution layer (AscEE):** Main functionalities of the Argennon execution layer should be implemented as described in [Chapter 1](https://github.com/aybehrouz/argennon/blob/1107faac09caea201aa73cc24513125652be6067/pdf/A.pdf).
+
+- [ ] **Trustful test-net:** This is a test-net without voting and cryptographic accumulators, all nodes trust each other in this network. There is only one delegate and one PV-DB server in this network:
+  - [ ] **[Trustful Validator](https://github.com/orgs/Argennon-Project/projects/4)**
+  - [ ] **[Trustful Fake PV-DB server](https://github.com/orgs/Argennon-Project/projects/5)**
+  - [ ] **[Trustful Proposer](https://github.com/orgs/Argennon-Project/projects/6)**
+
+- [ ] **ARG token v2 and ADAGs:** The Argennon DAO and the 2nd version of the ARG token will be deployed on the Binance Smart Chain. A website should be created for interacting with the Argennon smart contracts:
+  - [ ] **[DAO & Token](https://github.com/orgs/Argennon-Project/projects/8)**
+  - [ ] **[Argennon Website](https://github.com/orgs/Argennon-Project/projects/7)**
+
+- [ ] **Trust-less client-server test-net:** This network will include voting and accumulators. It still has only one delegate and one PV-DB server, so the topology of this network is mostly client-server and the P2P network between PV-DB servers will not be implemented in this test-net.
+
+- [ ] **The Argon compiler:** A compiler should be implemented for the main smart contract language of the Argennon platform. That implicitly would require that the specification of the Argennon standard representations, including ArgC, are finalized.
+ 
+- [ ] **Insecure test-net:** This network will include multiple delegates and multiple PV-DB servers. It essentially provides a complete implementation of the Argennon protocol. However, this implementation doesn't need to be completely secure. For example it could be vulnerable to DOS attacks, or insecurely manage cryptographic keys.
+
+- [ ] **Secure test-net:** This network is a pre-launch test-net and includes all features of the Argennon main-net. This network should be run for at least 3 months.
+
+- [ ] **Main-net launch and the bridging service:** The Argennon blockchain will be deployed. A bridging service will be available for users to bridge their ARG token on the BSC to the Argennon blockchain.
 <!--
 
 **Here are some ideas to get you started:**
