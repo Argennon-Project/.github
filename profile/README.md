@@ -6,8 +6,9 @@ Argennon (*the classical pronunciation should be used:* /ɑrˈɡen.non/) is a ne
 contract platform. The Argennon blockchain uses
 a hybrid proof of stake (HPoS) consensus protocol, which is capable of combining the benefits of
 a centralized and a decentralized system. Thanks to the cloud
-based design of the Argennon blockchain, transaction validation does not require costly
-computational resources, and normal personal computers or smartphones, with limited hardware capabilities, can
+based design of the Argennon blockchain, Argennon validators do not need to store the blockchain state and
+transaction validation does not require costly
+computational resources. In Argennon, normal personal computers or smartphones, with limited hardware capabilities, can
 validate transactions and actively
 participate in the Argennon consensus protocol. This property makes Argennon a truly decentralized and
 democratic blockchain and one of the most secure existing platforms.
@@ -48,7 +49,7 @@ to the native currency of the Argennon blockchain.
   - [ ] **[DAO & Token](https://github.com/orgs/Argennon-Project/projects/8)**
   - [ ] **[Argennon Website](https://github.com/orgs/Argennon-Project/projects/7)**
 
-- [ ] **Trust-less client-server test-net:** This network will include voting and accumulators. It still has only one delegate and one PV-DB server, so the topology of this network is mostly client-server and the P2P network between PV-DB servers will not be implemented in this test-net.
+- [ ] **Trust-less client-server test-net:** This network will include voting and accumulators. It still has only one delegate and one PV-DB server, so the topology of this network is mostly client-server and the P2P network between PV-DB servers will not be implemented.
 
 - [ ] **The Argon compiler:** A compiler should be implemented for the main smart contract language of the Argennon platform. That implicitly would require that the specification of the Argennon Standard Representations (ASRs), including the ArgC language, are finalized.
  
