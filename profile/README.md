@@ -2,7 +2,7 @@
 
 ## The Argennon Project
 
-Argennon (*the classical pronunciation should be used:* /ɑrˈɡen.non/) is a next-gen cloud based blockchain and smart
+Argennon*  is a next generation cloud based blockchain and smart
 contract platform. The Argennon blockchain uses
 a hybrid proof of stake (HPoS) consensus protocol, which is capable of combining the benefits of
 a centralized and a decentralized system. Thanks to the cloud
@@ -35,7 +35,12 @@ Chain or the Ethereum network in order to represent investors' share in the proj
 determine the project's path. After the launch of the Argennon blockchain, this token will be convertible in 1:1 ratio
 to the native currency of the Argennon blockchain.
 
-**Please check out the Argennon community on [Discord](https://discord.gg/7u3cXNt5yN), [Telegram](https://t.me/Argennon_Chat), [Reddit](https://www.reddit.com/r/Argennon/) and [Twitter](https://twitter.com/Argennon_org)!**
+**The classical pronunciation should be used:* /ɑrˈɡen.non/
+
+### Please check out the Argennon community on [Discord](https://discord.gg/7u3cXNt5yN), [Telegram](https://t.me/Argennon_Chat), [Reddit](https://www.reddit.com/r/Argennon/) and [Twitter](https://twitter.com/Argennon_org)!
+
+
+
 ### Development Roadmap
 
 - [x] **The Argennon execution layer (AscEE):** Main functionalities of the Argennon execution layer should be implemented as described in the white paper.
