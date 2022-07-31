@@ -5,25 +5,26 @@
 Argennon* is a next generation cloud based blockchain and smart
 contract platform. The Argennon blockchain uses
 a hybrid proof of stake (HPoS) consensus protocol, which is capable of combining the benefits of
-a centralized and a decentralized system. Thanks to the cloud
-based design of the Argennon blockchain, Argennon validators do not need to store the blockchain state and
-transaction validation does not require costly
-computational resources. In Argennon, normal personal computers or smartphones, with limited hardware capabilities, can
-validate transactions and actively
+a centralized and a decentralized system. In Argennon, ledger storage and transaction validation are
+outsourced to the cloud and normal personal computers or smartphones, with limited hardware
+capabilities, can validate transactions and actively
 participate in the Argennon consensus protocol. This property makes Argennon a truly decentralized and
 democratic blockchain and one of the most secure existing platforms.
 
-The Argennon cloud is formed by a permission-less network of Publicly Verifiable Database (PV-DB) servers. A
-PV-DB server in Argennon, is a conventional data server which uses its computational and
-storage resources to help the Argennon network process transactions. A large portion of incentive rewards in
-the Argennon platform is devoted to PV-DB servers. This incentivizes the development of conventional
-networking, storage and computational hardware, which can benefit all areas of information technology.
+In Argennon, Computational Integrity (CI) is achieved by using succinct cryptographic proofs (STARK/SNARK)
+and data integrity is guaranteed by cryptographic accumulators. There is no need to trust cloud servers.
+At the same time, a smart clustering algorithm keeps
+the network usage and the overhead of commitment schemes manageable.
+
+The Argennon protocol strongly incentivizes the formation of a permission-less network of Publicly Verifiable
+Cloud (PVC) servers. A PVC server in Argennon, is a conventional data server which uses its computational and
+storage resources to help the Argennon network process transactions. This encourages the development
+of conventional networking, storage and compute hardware, which can benefit all areas of information technology.
 This contrasts with the approach of some older blockchains that incentivizes the development of a totally
 useless technology of hash calculation.
 
-By using cryptographic accumulators, the integrity of data on the Argennon cloud is guaranteed, and there
-is no need for trusting cloud servers. At the same time, by using a smart clustering algorithm the network usage
-and the overhead of the cryptographic proofs is kept manageable.
+An Argennon validator is light enough to be implemented as a smart contract. By deploying an Argennon validator on another
+blockchain, Argennon is able to use older blockchains as an extra layer of security. 
 
 An initial draft of the Argennon white paper can be
 found [here](https://raw.githubusercontent.com/aybehrouz/AVM/main/pdf/A.pdf). In addition,
