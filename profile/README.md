@@ -5,22 +5,22 @@
 Argennon* is a next generation cloud based blockchain and smart
 contract platform. The Argennon blockchain uses
 a hybrid proof of stake (HPoS) consensus protocol, which is capable of combining the benefits of
-a centralized and a decentralized system. In Argennon, ledger storage and transaction validation are
+a centralized and a decentralized system. In Argennon, ledger storage and transaction processing are
 outsourced to the cloud and normal personal computers or smartphones, with limited hardware
 capabilities, can validate transactions and actively
 participate in the Argennon consensus protocol. This property makes Argennon a truly decentralized and
 democratic blockchain and one of the most secure existing platforms.
 
-In Argennon, Computational Integrity (CI) is achieved by using succinct cryptographic proofs (STARK/SNARK)
-and data integrity is guaranteed by cryptographic accumulators. There is no need to trust cloud servers.
-At the same time, a smart clustering algorithm keeps
-the network usage and the overhead of commitment schemes manageable.
+The Argennon cloud is trustless and publicly verifiable. Computational Integrity (CI) is
+achieved by using succinct cryptographic proofs (STARK/SNARK)
+and data integrity is guaranteed by cryptographic accumulators. At the same time, a smart
+clustering algorithm keeps the bandwidth usage and the overhead of commitment schemes manageable.
 
 The Argennon protocol strongly incentivizes the formation of a permission-less network of Publicly Verifiable
 Cloud (PVC) servers. A PVC server in Argennon, is a conventional data server which uses its computational and
 storage resources to help the Argennon network process transactions. This encourages the development
 of conventional networking, storage and compute hardware, which can benefit all areas of information technology.
-This contrasts with the approach of some older blockchains that incentivizes the development of a totally
+This contrasts with the approach of some older blockchains that incentivized the development of a totally
 useless technology of hash calculation.
 
 An Argennon validator is light enough to be implemented as a smart contract. By deploying an Argennon validator on another
@@ -37,7 +37,7 @@ determine the project's path. After the launch of the Argennon blockchain, this 
 to the native currency of the Argennon blockchain.
 
 
-### Please check out the Argennon community on [Discord](https://discord.gg/7u3cXNt5yN), [Telegram](https://t.me/Argennon_Chat), [Reddit](https://www.reddit.com/r/Argennon/) and [Twitter](https://twitter.com/Argennon_org)!
+**Please check out the Argennon community on [Discord](https://discord.gg/7u3cXNt5yN), [Telegram](https://t.me/Argennon_Chat), [Reddit](https://www.reddit.com/r/Argennon/) and [Twitter](https://twitter.com/Argennon_org)!**
 
 
 
@@ -54,10 +54,12 @@ to the native currency of the Argennon blockchain.
   - [ ] **[DAO & Token](https://github.com/orgs/Argennon-Project/projects/8)**
   - [ ] **[Argennon Website](https://github.com/orgs/Argennon-Project/projects/7)**
 
-- [ ] **Trust-less client-server test-net:** This network will include voting and accumulators. It still has only one delegate and one PV-DB server, so the topology of this network is mostly client-server and the P2P network between PV-DB servers will not be implemented.
+- [ ] **The Argennon CI system:** The Computational Integrity (CI) prover and verifier will be implemented. A compiler with the ability to arithmetize Argennon application should be developed.
 
 - [ ] **The Argon compiler:** A compiler should be implemented for the main smart contract language of the Argennon platform. That implicitly would require that the specification of the Argennon Standard Representations (ASRs), including the ArgC language, are finalized.
- 
+
+- [ ] **Trust-less client-server test-net:** This network will include voting and accumulators. It still has only one delegate and one PV-DB server, so the topology of this network is mostly client-server and the P2P network between PV-DB servers will not be implemented.
+
 - [ ] **Insecure test-net:** This network will include multiple delegates and multiple PV-DB servers. It essentially provides a complete implementation of the Argennon protocol. However, this implementation does not need to be completely secure. For example, it might be vulnerable to DOS attacks, or manage cryptographic keys insecurely.
 
 - [ ] **Secure test-net:** This network is a pre-launch test-net and includes all features of the Argennon main-net. This network should be run for at least 3 months.
