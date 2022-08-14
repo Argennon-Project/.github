@@ -22,10 +22,6 @@ of conventional networking, storage and compute hardware, which can benefit all 
 This contrasts with the approach of some older blockchains that incentivized the development of a totally
 useless technology of hash calculation.
 
-An Argennon validator is light enough to be implemented as a smart contract. By deploying an Argennon validator
-on another blockchain, Argennon could use more established networks as an extra layer of security, specially
-during the bootstrapping phase, when ARG is not well distributed yet.
-
 An initial draft of the Argennon white paper can be
 found [here](https://raw.githubusercontent.com/aybehrouz/AVM/main/pdf/A.pdf). In addition,
 this [link](https://github.com/aybehrouz/argennon#readme) provides a brief overview of the important properties of the
