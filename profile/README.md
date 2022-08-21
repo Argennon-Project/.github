@@ -51,13 +51,13 @@ and [Twitter](https://twitter.com/Argennon_org)!**
     - [ ] **[Trustful Fake PVC server](https://github.com/orgs/Argennon-Project/projects/5)**
     - [ ] **[Trustful Proposer](https://github.com/orgs/Argennon-Project/projects/6)**
 
-- [ ] **ARG token v2 and ADAGs:** The support chain should be chosen. The Argennon DAO and the 2nd version of the ARG
-  token will be deployed on the support Chain. Conversion of ARG v1 token into ARG v2 should be provided. A website
-  will be created for interacting with the Argennon smart contracts and DAO.
+- [ ] **ARG token v2 and ADAGs:** The support chain should be chosen. (BSC for example) The Argennon DAO and the 2nd 
+  version of the ARG token will be deployed on the support chain. Conversion of ARG v1 into ARG v2 should be 
+  provided. A website will be created for interacting with Argennon smart contracts and the DAO.
     - [ ] **[DAO & Token](https://github.com/orgs/Argennon-Project/projects/8)**
     - [ ] **[Argennon Website](https://github.com/orgs/Argennon-Project/projects/7)**
 
-- [ ] **Client-server test-net with consensus:** This network will include voting and an implementation of the
+- [ ] **Client-server test-net with consensus:** This network will include voting and an implementation of the Argennon
   consensus protocol. It will have three delegates, one PVC server, and multiple validators. Therefore, the topology of
   this network is mostly client-server and the P2P network between PVC servers will not be implemented.
 
@@ -65,12 +65,13 @@ and [Twitter](https://twitter.com/Argennon_org)!**
   platform. This compiler is able to compile Argennon applications from a high level user-friendly language to ASAR.
 
 - [ ] **Insecure test-net:** This network will include multiple PVC servers and the networking layer will be fully
-  implemented. this test-net essentially provides a complete implementation of the Argennon protocol. However, this  
-  implementation does not need to be completely secure. For example, it might be vulnerable to DOS attacks, or manage
-  cryptographic keys insecurely.
+  implemented. This test-net essentially provides a complete implementation of the Argennon protocol. However, it 
+  does not need to be completely secure. For example, it might be vulnerable to DOS attacks, or manage cryptographic 
+  keys insecurely.
 
-- [] **Validator smart contract and trustless bridging:** The validator smart contract should be implemented. This
-  contract should enable trustless bridging of assets from the support chain to the Argennon blockchain.
+- [ ] **Validator smart contract and trustless bridging:** The validator smart contract should be implemented for 
+  the support chain. This contract should enable trustless bridging of assets from the support blockchain to the 
+  Argennon blockchain.
 
 - [ ] **Secure test-net:** This network is a pre-launch test-net and includes all features of the Argennon main-net.
   This network should be run for at least 3 months before the main-net is launched. The validator smart contract 
