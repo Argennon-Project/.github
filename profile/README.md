@@ -38,24 +38,24 @@ and [Twitter](https://twitter.com/Argennon_org)!**
 
 ### Development Roadmap
 
-- [ ] **Third version of the white paper:** The usage of Succinct Argument of Knowledge systems (SNARK) will be
+- [x] **Third version of the white paper:** The usage of Succinct Argument of Knowledge systems (SNARK) will be
   explained. The consensus protocol should be described more accurately.
 
+- [ ] **ARG token v2 and ADAGs:** The support chain should be chosen. The Argennon DAO and the 2nd 
+  version of the ARG token will be deployed on the support chain. Conversion of ARG v1 into ARG v2 should be 
+  provided. A website will be created for interacting with Argennon smart contracts and the DAO.
+    - [ ] **[DAO & Token](https://github.com/orgs/Argennon-Project/projects/8)**
+    - [ ] **[Argennon Website](https://github.com/orgs/Argennon-Project/projects/7)**
+
 - [ ] **The Argennon Argument of Knowledge system:** Main functionalities of the Argennon execution layer should be
-  implemented. The Computational Integrity prover and verifier will be implemented. A compiler with the ability to
-  arithmetize an Argennon Standard Application Representation (ASAR) should be developed. (i.e. the ASAR Arithmetizer)
+  implemented. A prototype of the Computational Integrity prover and verifier will be implemented. A compiler with the ability to
+  arithmetize an Argennon Standard Application Representation (ASAR) should be developed.
 
 - [ ] **Trustful test-net:** This is a test-net without voting and without any consensus protocol. all nodes trust each
   other. There is only one delegate, one PVC server and one validator.
     - [ ] **[Trustful Validator](https://github.com/orgs/Argennon-Project/projects/4)**
     - [ ] **[Trustful Fake PVC server](https://github.com/orgs/Argennon-Project/projects/5)**
     - [ ] **[Trustful Proposer](https://github.com/orgs/Argennon-Project/projects/6)**
-
-- [ ] **ARG token v2 and ADAGs:** The support chain should be chosen. (BSC for example) The Argennon DAO and the 2nd 
-  version of the ARG token will be deployed on the support chain. Conversion of ARG v1 into ARG v2 should be 
-  provided. A website will be created for interacting with Argennon smart contracts and the DAO.
-    - [ ] **[DAO & Token](https://github.com/orgs/Argennon-Project/projects/8)**
-    - [ ] **[Argennon Website](https://github.com/orgs/Argennon-Project/projects/7)**
 
 - [ ] **Client-server test-net with consensus:** This network will include voting and an implementation of the Argennon
   consensus protocol. It will have three delegates, one PVC server, and multiple validators. Therefore, the topology of
